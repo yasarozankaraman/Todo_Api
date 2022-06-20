@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Todo_Api.Models;
+using Todo_Api.Models.Request;
 
 namespace Todo_Api.Controllers
 {
@@ -83,16 +84,16 @@ namespace Todo_Api.Controllers
         // POST: api/TodoItems
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<TodoItem>> PostTodoItem(TodoItem todoItem)
+        public async Task<ActionResult<TodoItem>> PostTodoItem(TodoAddModel todoItem)
         {
           if (_context.TodoItems == null)
           {
               return Problem("Entity set 'TodoContext.TodoItems'  is null.");
           }
-            _context.TodoItems.Add(todoItem);
+            var entry = _context.TodoItems.Add(new TodoItem {  Name = todoItem.Name });
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetTodoItem), new { id = todoItem.Id }, todoItem);
+            return CreatedAtAction(nameof(GetTodoItem), new { id = entry.Entity.Id }, todoItem);
         }
 
         // DELETE: api/TodoItems/5

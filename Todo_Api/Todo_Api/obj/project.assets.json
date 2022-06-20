@@ -10088,23 +10088,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yasar\\.nuget\\packages\\": {},
+    "C:\\Users\\yazilim.park9\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yasar\\source\\repos\\Todo_Api\\Todo_Api\\Todo_Api.csproj",
+      "projectUniqueName": "C:\\Users\\yazilim.park9\\source\\repos\\Todo_Api\\Todo_Api\\Todo_Api\\Todo_Api.csproj",
       "projectName": "Todo_Api",
-      "projectPath": "C:\\Users\\Yasar\\source\\repos\\Todo_Api\\Todo_Api\\Todo_Api.csproj",
-      "packagesPath": "C:\\Users\\Yasar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yasar\\source\\repos\\Todo_Api\\Todo_Api\\obj\\",
+      "projectPath": "C:\\Users\\yazilim.park9\\source\\repos\\Todo_Api\\Todo_Api\\Todo_Api\\Todo_Api.csproj",
+      "packagesPath": "C:\\Users\\yazilim.park9\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yazilim.park9\\source\\repos\\Todo_Api\\Todo_Api\\Todo_Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Yasar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yazilim.park9\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
